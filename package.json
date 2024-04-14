@@ -1,11 +1,10 @@
 {
   "name": "nodenet",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "node app.js",
-     "build": "netlify deploy --prod"
+    "build": "npm run build"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +13,7 @@
     "netlify-cli": "^17.22.1",
     "netlify-lambda": "^2.0.16",
     "serverless-http": "^3.2.0"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
